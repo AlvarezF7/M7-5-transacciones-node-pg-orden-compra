@@ -50,9 +50,9 @@ El frontend permite interactuar con los datos de forma funcional usando HTML, CS
 
 ## Uso
 1. Configurar el archivo .env_ejemplo con las credenciales de tu base de datos. 
-2. Instalar dependencias npm install
+2. Instalar dependencias **npm install**    
 3. Ejecutar el Script **M7-5-script.sql** contiene la tabal y los datos de prueba.
-4. Ejecutar Servidor npm start
+4. Ejecutar Servidor **npm start**
 5. Abrir Navegador http://localhost:3000.
 
 
