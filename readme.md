@@ -56,6 +56,7 @@ El frontend permite interactuar con los datos de forma funcional usando HTML, CS
 
 
 # Notas 
+- La tabla principal es **clientes_t5**, si lista la tabla clientes  estara listando la tabla de un ejercicio anterior, ya que como es con fines educativos se utiliza la misma base dedatos para  todos los ejercicios del modulo 7.
 - Las tablas principales tienen los siguientes nombres: **clientes_t5,** direcciones, productos, orden, lista_productos, despachos.
 - Todas las operaciones de creación de órdenes son transaccionales (BEGIN/COMMIT/ROLLBACK) para garantizar consistencia.
 - El sistema no permite crear clientes nuevos automáticamente, los clientes y direcciones deben existir antes de crear la orden.
