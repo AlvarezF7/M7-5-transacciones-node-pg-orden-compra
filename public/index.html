@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/styles.css">
+<title>Sistema de Órdenes</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Sistema de Órdenes de Compra</h1>
+        <!-- Menú -->
+        <nav>
+            <button id="btnProductos">Productos</button>
+            <button id="btnOrdenes">Órdenes por Cliente</button>
+            <button id="btnCrearOrden">Crear Orden</button>
+        </nav>
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productosSection" class="hidden">
+            <h2>Lista de Productos</h2>
+            <button id="listarProductos">Cargar Productos</button>
+            <ul id="listaProductos"></ul>
+        </section>
+        <!-- SECCIÓN ÓRDENES -->
+        <section id="ordenesSection" class="hidden">
+            <h2>Órdenes por Cliente</h2>
+            <input id="rutCliente" placeholder="Ingrese Rut">
+            <button id="buscarOrdenes">Buscar</button>
+            <ul id="listaOrdenes"></ul>
+            <!-- Mensaje de alerta si no hay órdenes o RUT no existe -->
+            <p id="mensajeOrdenes"></p>
+        </section>
+        <!-- SECCIÓN CREAR ORDEN -->
+        <section id="crearOrdenSection" class="hidden">
+            <h2>Crear Orden</h2>
+            <input id="rutOrden" placeholder="Rut cliente">
+            <input id="direccionOrden" placeholder="ID dirección">
+
+            <h3>Productos</h3>
+            <div id="productosOrden"></div>
+
+            <button id="agregarProducto">Agregar Producto</button>
+            <button id="enviarOrden">Crear Orden</button>
+            <!-- Mensaje de resultado de la creación de la orden -->
+            <p id="resultadoOrden"></p>
+        </section>
+    </div>
+    <footer>
+        Proyecto con fines Educativos para el curso de Full Stack de Sence 2025-2026
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
